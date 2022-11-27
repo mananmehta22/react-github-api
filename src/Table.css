@@ -1,0 +1,64 @@
+body.active-table {
+  overflow-y: hidden;
+}
+
+.btn-table {
+  position: relative;
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.table,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.table-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 800px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-table {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+table {
+  border: 2px solid yellow;
+  width: 800px;
+  height: 100px;
+}
+
+th {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+td {
+  text-align: center;
+}
